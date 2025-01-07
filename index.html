@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Weather Application</title>
     <link rel="icon" href="assets/sun.jpeg" type="image/jpeg">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" /> -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,7 +19,7 @@
                 </span>
             </button>
         </header>
-        <section class="weather-information">
+        <section class="weather-information" style="display: none;">
             <div class="location-date-container">
                 <div class="loacation">
                     <span class="material-symbols-outlined">
@@ -31,18 +29,70 @@
                 </div>
                 <h5 class="crt-date-txt">Sat ,06 Jun</h5>
             </div>
+
+
+
+            <div class="weather-summary-container">
+                <img src="assets/weather/clouds.svg" alt="koni" class="weather-summary-img">
+                <div class="weather-summary-info">
+                    <h1 class="temp-txt"> 28 °C </h1>
+                    <h3 class="condition-txt regular"> clouds</h3>
+                </div>
+            </div>
+
+            <div class="weather-condition-container">
+                <div class="condition-item">
+                    <span class="material-symbols-outlined">
+                        water_drop
+                    </span>
+                    <div class="condition-info">
+                        <h5 class="regular">Humidity</h5>
+                        <h5 class="humidity-value-txt">45%</h5>
+                    </div>
+                </div>    
+                <div class="condition-item">
+                    <span class="material-symbols-outlined">
+                        air
+                    </span>
+                    <div class="condition-info">
+                        <h5 class="regular">wind speed</h5>
+                        <h5 class="wind-value-txt">2 M/s</h5>
+                    </div>
+                </div>   
+            </div>
+
+
+            <div class="forecast-items-container">
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular"> 05 Aug </h5>
+                    <img src="assets/weather/snow.svg" alt="" class="forecast-item-image">
+                    <h5 class="forecast-item-temp"> 28 °C </h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular"> 05 Aug </h5>
+                    <img src="assets/weather/snow.svg" alt="" class="forecast-item-image">
+                    <h5 class="forecast-item-temp"> 28 °C </h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular"> 05 Aug </h5>
+                    <img src="assets/weather/snow.svg" alt="" class="forecast-item-image">
+                    <h5 class="forecast-item-temp"> 28 °C </h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular"> 05 Aug </h5>
+                    <img src="assets/weather/snow.svg" alt="" class="forecast-item-image">
+                    <h5 class="forecast-item-temp"> 28 °C </h5>
+                </div>
+
+            </div>
+
         </section>
 
-        <div class="weather-summary-container">
-            <img src="assets/weather/clouds.svg" alt="koni" class="weather-summary-img">
-            <div class="weather-summary-info">
-                <h1 class="temp-txt"> 28 °C </h1>
-                <h3 class="condition-txt regular"> clouds</h3>
-            </div>
-        </div>
-        <div class="weather-condition-container">
-            
-        </div>
+        
         
     </main>
 
